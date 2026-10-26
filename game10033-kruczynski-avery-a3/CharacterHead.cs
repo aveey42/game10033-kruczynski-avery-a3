@@ -11,9 +11,6 @@ public class CharacterHead      // Change to public Class
     public void Setup()
     {
         // Randomize Starting Head
-        
-
-
     }
 
     public void Update() 
