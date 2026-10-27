@@ -20,7 +20,6 @@ namespace MohawkGame2D
         {
             Window.SetTitle("Avery's Micro Character Creator");
             Window.SetSize(600, 800);
-            
         }
 
         /// <summary>
