@@ -25,10 +25,12 @@ public class CharacterTorso      // Change to public Class
     // Line/Stripe Count and Coords
     int LineCount = 0;
     int LineCoordX = 240;
-    int LineCoordY = 470;
+    int LineCoordY = 500;
+    int LineCoordXdefault = 240;
+    int StripeCount = 0;
     int StripeCoordX = 199;
     int StripeCoordY = 340;
-    int StripeCount = 0;
+    int StripeCoordYdefault = 340;
 
 
     public void Setup()
@@ -152,8 +154,6 @@ public class CharacterTorso      // Change to public Class
         else if (TorsoType == 2)
         {
             // Define ShirtColor
-            LineCount = 0;
-            StripeCount = 0;
             ShirtColorPrimary = Color.ShirtGreen;
             ShirtColorSecondary = Color.ShirtLime;
 
@@ -161,15 +161,17 @@ public class CharacterTorso      // Change to public Class
             DrawTorsoBase();
 
             // For loop to draw the stripes
+            StripeCoordY = StripeCoordYdefault;
             for (StripeCount = 0; StripeCount < 3; StripeCount++)
             {
                 Draw.SetLineSize(0);
                 Draw.SetFillColor(ShirtColorSecondary);
                 Draw.Rectangle(StripeCoordX, StripeCoordY, 201, 30);
-                StripeCoordY += 30;
+                StripeCoordY += 50;
             }
 
             // For loop drawing lines on the bottom of the sweater
+            LineCoordY = LineCoordXdefault;
             for (LineCount = 0; LineCount < 13; LineCount++)
             {
                 Draw.SetLineSize(1);

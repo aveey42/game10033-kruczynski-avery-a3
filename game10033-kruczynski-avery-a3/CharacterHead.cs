@@ -82,7 +82,7 @@ public class CharacterHead      // Change to public Class
             DrawNeck();
 
             //Draw Head
-            Draw.Capsule(300, 230, 300, 245, 50);
+            Draw.Triangle(230, 290, 370, 290, 300, 160);
         }
     }
     void ArrowSetup()
