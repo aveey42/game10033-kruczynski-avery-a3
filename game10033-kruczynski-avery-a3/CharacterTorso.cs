@@ -14,7 +14,6 @@ public class CharacterTorso      // Change to public Class
     Color ShirtColor;
     Color SkinTone = Color.Yellow;
 
-
     public void Setup()
     {
         // Setup Array
