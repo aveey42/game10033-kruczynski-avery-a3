@@ -13,13 +13,20 @@ namespace MohawkGame2D
     {
         /// <summary>
         ///     Setup runs once before the game loop begins.
-        /// </summary>
+        /// </summary>        
+        CharacterLegs CharacterLegs = new CharacterLegs();
+        CharacterTorso CharacterShirt = new CharacterTorso();
+        CharacterHead CharacterHead = new CharacterHead();
 
         //CharacterHead head = new CharacterHead();  // tells computer to allocate memory for the head and store it.
         public void Setup()
         {
             Window.SetTitle("Avery's Micro Character Creator");
             Window.SetSize(600, 800);
+
+            CharacterLegs.Setup();
+            CharacterShirt.Setup();
+            CharacterHead.Setup();
         }
 
         /// <summary>
@@ -28,6 +35,11 @@ namespace MohawkGame2D
         public void Update()
         {
             Window.ClearBackground(Color.LightGray);
+
+            CharacterLegs.Update();
+            CharacterShirt.Update();
+            CharacterHead.Update();
+
         }
     }
 

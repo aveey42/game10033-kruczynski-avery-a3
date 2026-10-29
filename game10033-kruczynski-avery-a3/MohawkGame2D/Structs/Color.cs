@@ -285,6 +285,96 @@ namespace MohawkGame2D
         /// </summary>
         public static readonly Color Magenta = new(255, 0, 255);
 
+        // Hi Raph! Here's some fun new additions I made to your code since I wanted prettier colours :D
+
+        // Arrow OFF
+
+        /// <summary>
+        ///     RGB(150,86,206)
+        /// </summary>
+        public static readonly Color ArrowOFF = new(150, 86, 206);
+
+        // Arrow ON
+
+        /// <summary>
+        ///     RGB(189,103,7)
+        /// </summary>
+        public static readonly Color ArrowON = new(189, 103, 7);
+
+        //Shirt Colors
+
+        // Shirt 1
+
+        /// <summary>
+        ///     RGB(230,7,248)
+        /// </summary>
+        public static readonly Color ShirtPink = new(230, 7, 248);
+        /// <summary>
+        ///     RGB(103,164,224)
+        /// </summary>
+        public static readonly Color ShirtBlue = new(103, 164, 224);
+
+        // Shirt 2
+        /// <summary>
+        ///     RGB(255,77,	77)
+        /// </summary>
+        public static readonly Color AdamShirtAdamShirt = new(255, 77, 77);
+
+
+        // Shirt 3
+
+        /// <summary>
+        ///     RGB(183,231,23)
+        /// </summary>
+        public static readonly Color ShirtLime = new(183, 231, 23);
+        /// <summary>
+        ///     RGB(104,121,80)
+        /// </summary>
+        public static readonly Color ShirtGreen = new(104, 121, 80);
+
+        // Skin Tones meant for an additional feature where players can change the character's skin tone by clicking the face and/or hands.
+
+        /// <summary>
+        ///     RGB(255,201,14)
+        /// </summary>
+        public static readonly Color ToneYellow = new(255, 201, 14);
+
+        /// <summary>
+        ///     RGB(255,219,172)
+        /// </summary>
+        public static readonly Color TonePale = new(255, 219, 172);
+
+        /// <summary>
+        ///     RGB(141,85,36)
+        /// </summary>
+        public static readonly Color ToneTan = new(141, 85, 36);
+
+        // Pants
+
+        /// <summary>
+        ///     RGB(59,10,6)
+        /// </summary>
+        public static readonly Color PantsBrown = new(59, 10, 6);
+
+        /// <summary>
+        ///     RGB(49,51,69)
+        /// </summary>
+        public static readonly Color PantsGray = new(49, 51, 69);
+
+        // Unused Pant Color
+
+        /// <summary>
+        ///     RGB(26,34,74)
+        /// </summary>
+        public static readonly Color PantsBlue = new(26, 34, 74);
+
+        // Shoe Color
+        /// <summary>
+        ///     RGB(36,36,36)
+        /// </summary>
+        public static readonly Color ShoeBlack = new(36, 36, 36);
+
+
         #endregion
 
         #region Private Methods
